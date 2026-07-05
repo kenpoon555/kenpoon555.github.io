@@ -3,8 +3,17 @@
     "apps": [],
     "details": [
       {
-        "appID": "68JKW6NXF6.com.rallyapp",
-        "paths": ["/rally/join", "/rally/join/*"]
+        "appIDs": ["68JKW6NXF6.com.rallyapp"],
+        "components": [
+          {
+            "/": "/rally/join",
+            "comment": "Invite landing root"
+          },
+          {
+            "/": "/rally/join/*",
+            "comment": "Invite links with query params"
+          }
+        ]
       }
     ]
   }
