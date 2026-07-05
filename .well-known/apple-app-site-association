@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "68JKW6NXF6.com.rallyapp",
+        "paths": ["/rally/join", "/rally/join/*"]
+      }
+    ]
+  }
+}
